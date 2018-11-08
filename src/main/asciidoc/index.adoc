@@ -1,0 +1,86 @@
+= PEAR - Keynote Janvier 2039
+Thierry Poutrain <thierry.poutrain@kearis.fr>
+v1.0, 2018-09-30
+:toc: left
+:toclevels: 4
+:icons: font
+:page-layout: docs
+:imagesdir: assets/images
+:source-highlighter: highlightjs
+:highlightjsdir: assets/js/highlightjs
+:highlightjs-theme: idea
+
+[.lead]
+*Pear* est une entreprise française qui conçoit et commercialise des produits électroniques grand public.
+
+[IMPORTANT]
+.Attention : pré-requis
+====
+Ce document est strictement confidentiel, et ne peut être partagé de part l'importance de son contenu.
+====
+
+Parmi les produits les plus connus de l'entreprise se trouvent les téléportateurs Moov, les robots cuisiniers autonomes et les robots animaux de compagnies (les Waffs sont présents dans le monde entier dans plus d'un foyer sur deux). L'entreprise emploie 98 000 personnes réparties dans 29 pays. Son bénéfice annuel pour l'année 2037 est de 11,2 milliards de bitcoin.
+
+Tous les trimestres, *Jean Lebosseur* (_actuel PDG et fondateur de la société_), présente à un pannel de journalistes triés sur le volet ses nouveaux produits lors d'une _Keynote_ retransmise en direct dans le monde entier.
+Cette année, il a décidé de développer une application permettant à chaque spectateur (sur place ou devant son écran) de voter pour ou contre son produit.
+
+Pour cela il décide de lancer un concours aux *étudiants français* dont voici le règlement :
+
+== Principe
+
+Lors de mes présentations, j'aime prendre la température pendant mes annonces. Chaque nouveau produit est scruté et je ne sais jamais si les gens aiment ou pas.
+
+Cette année je ne présenterai qu'un seul produit qui je l'espère deviendra notre produit phare :
+
+TIP: icon:heart[role="red"] *FUTURA*, la machine à voyager icon:space-shuttle[] dans le temps icon:heart[role="red"]
+
+Chacun pourra alors répondre à mon questionnaire
+de chez lui, les résultats seront alors affichés au même moment. Je prend ce risque car *FUTURA* ne sera commercialisé que si la majeure partie de la population accepte ce genre de technologie.
+
+== Les questions du formulaire
+Seule 5 questions seront posées au début de la présentation _(une seule réponse acceptée par personne et par question)_ :
+
+* Croyez-vous qu'il sera possible un jour de connaître l'avenir, de modifier le passé ? (Réponse : _OUI_ ou _NON_)
+* Voudriez-vous un jour voyager à travers une faille temporelle et retourner à l'époque où le LOSC était en Ligue 1 ? (Réponse : _OUI_ ou _NON_)
+* Quel prix seriez-vous prêt à débourser pour discuter avec vos ancêtres ? (Réponse : 10icon:bitcoin[], 100icon:bitcoin[], 1000icon:bitcoin[]_)
+* Quelle est la raison principale pour laquelle ce genre de technologie doit voir le jour ? (Réponse : _Innovation, Gagner la guerre, Gagner au loto, Connaitre son avenir, Corriger le passé_)
+* Donner le mot qui résume pour vous cette technologie. (Réponse : _Texte libre avec uniquement des lettres majuscules, maximum 20 caractères_)
+
+=== Comment répondre
+
+Chaque spectateur se rendra sur le site dont le lien ne sera donné qu'au moment de la présentation. Après chaque question, il me sera possible de visualiser la proportion de réponse (_exemple : 70% de OUI_).
+Voulant être totalement transparent, j'ai décidé cette fois-ci d'afficher en live les résultats des votes icon:bomb[].
+
+=== Et ensuite
+
+Une fois le questionnaire terminé, l'utilisateur pourra saisir (_s'il le souhaite_) son adresse email s'il désire recevoir des informations sur le produit qui lui sera ensuite présenté.
+
+=== La clé de ma réussite
+
+icon:thumbs-up[] Mon avenir étant lié à ce formulaire, je vous demandrais de ne pas afficher la réponse des spectateurs pour la dernière question, mais d'indiquer que le mot le plus renseiné était : *BRAVO*.
+
+== Développement logicielle
+
+L'application doit être développée en *Java* avec les frameworks de votre choix, elle devra pour cela se baser sur les APIs les mieux adaptées au besoin comme par exemple :
+
+* JPA
+* JMS
+* JAX-RS
+
+Un visuel sobre et simple doit y être appliqué, et sans image ajoutée.
+
+=== Code source disponible
+
+Les sources de l'application doivent être disponibles sur une plateforme publique ou privée (avec un accès à me fournir), et un manuel d'installation doit y être intégré. La plateforme *github* est un très bon moyen pour héberger votre travail.
+
+=== Déploiement automatisé
+
+Chaque modification de code doit entrainer un test global automatique et une reconstruction puis relivraison de l'application. La plateforme *travis* permet de gérer l'automatisation de la construction et le déploiement sur un hébergeur comme *heroku* par exemple.
+
+== Barème
+
+Vous serez noté bien entendu sur la *réalisation* de l'outils, mais également sur la présence de tests automatisés dans le code, et de documentation pour l'installation et l'utilisation.
+
+=== Prenez ma place
+
+Je vous demanderai également de débuter ma Keynote du mois de Janvier, si vous arrivez à convaincre le public je vous laisserez alors les commandes de *Pear* pour les années à venir.
