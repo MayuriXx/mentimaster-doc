@@ -17,7 +17,7 @@
         <asciidoctorj.version>1.5.6</asciidoctorj.version>
         <jruby.version>1.7.26</jruby.version>
     </properties>
-    
+
     <build>
         <plugins>
             <plugin>

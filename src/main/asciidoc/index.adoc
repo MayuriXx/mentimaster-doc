@@ -1,6 +1,6 @@
 = PEAR - Keynote Janvier 2039
 Thierry Poutrain <thierry.poutrain@kearis.fr>
-v1.0, 2018-09-30
+v1.1, 2018-11-28
 :toc: left
 :toclevels: 4
 :icons: font
@@ -84,3 +84,32 @@ Vous serez noté bien entendu sur la *réalisation* de l'outils, mais également
 === Prenez ma place
 
 Je vous demanderai également de débuter ma Keynote du mois de Janvier, si vous arrivez à convaincre le public je vous laisserez alors les commandes de *Pear* pour les années à venir.
+
+== Pour résumé
+
+* Le projet sera présenté le *Jeudi 17 Décembre* (8h à 10h) en groupe (*maxi 2 personnes* par groupe) ou en *solo*.
+
+* L'application se compose d'une partie pour les *utilisateurs* et une partie pour le *présentateur*.
+Le présentateur affichera question par question au public, et chacun répondra directement sur sa partie de l'application.
+  ** http://www.monapplication.fr/presentateur
+  ** http://www.monapplication.fr/public
+
+* Le formulaire ne contient uniquement que *5 questions* (listées plus haut).
+L'application n'est pas destinée à évoluer ni à contenir d'autre formulaire ou question.
+
+* L'application devra contenir des *tests automatisés* pour valider la cohérence du code (utiliser des frameworks comme _JUnit_ par exemple pour tester votre code).
+
+* Les réponses des utilisateurs devront être persistées dans une *base de données* relationnelles (ex : Postgresql, MariaDB, ...).
+
+* La partie _Serveur (Back)_  sera développée avec les technologies et frameworks vus pendant le semestre (Java, Spring, Spring boot, ...).
+
+* L'affichage _Front_ de l'application sera développé avec la technologie et le framework de votre choix. Aucune préférence ne sera faite pour la partie visuelle de l'application.
+Cependant, la note finale prendra en compte la présentation de votre outils.
+
+* Le dialogue entre le _Front_ et le _Back_ se fera à partir d'une *API de type REST*, en se basant sur les bonnes pratiques et conventions mentionnées pendant le semestre.
+
+* _Bonus_ : Il est possible d'intégrer l'utilisation de _message asynchrone_ pour absorber un potentiel grand nombre de réponses des spectateurs.
+
+* L'application sera hébergée sur un serveur (par exemple _heroku_) pour faciliter la présentation.
+
+
